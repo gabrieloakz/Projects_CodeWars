@@ -1,0 +1,19 @@
+Numa fábrica, uma impressora imprime etiquetas para caixas. 
+Para um tipo de caixas a impressora tem de usar cores que, por 
+uma questão de simplicidade, são nomeadas com letras de a a m.
+
+As cores utilizadas pela impressora são registadas numa cadeia de 
+controlo. Por exemplo, uma cadeia de controlo "boa" seria aaabbbbhaijjjm,
+o que significa que a impressora usou três vezes a cor a, quatro vezes a 
+cor b, uma vez a cor h e depois uma vez a cor a...
+
+Por vezes há problemas: falta de cores, avaria técnica e é produzida 
+uma cadeia de controlo "má", por exemplo, aaaxbbbbyyhwawiwjjjwwm com 
+letras que não são de a a m.
+
+Tem de escrever uma função printer_error que, dada uma string, retorna 
+a taxa de erro da impressora como uma string representando um racional 
+cujo numerador é o número de erros e o denominador o comprimento da 
+string de controlo. Não reduza esta fracção a uma expressão mais simples.
+
+A corda tem um comprimento maior ou igual a um e contém apenas letras do ato z.

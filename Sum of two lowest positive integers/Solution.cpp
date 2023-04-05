@@ -1,4 +1,4 @@
-//DESCRIÇÃO
+//SOLUÇÃO
 
 // A solução usa a biblioteca algorithm e a classe vector para manipular a matriz de números. 
 // A função sort é usada para classificar a matriz em ordem crescente, de modo que os dois menores
